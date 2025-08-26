@@ -1,0 +1,15 @@
+{
+  "playwright.reuseBrowser": false,
+  "playwright.showTrace": false,
+  "typescript.preferences.includePackageJsonAutoImports": "auto",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.git": true,
+    "**/playwright-report": true,
+    "**/test-results": true
+  }
+}
