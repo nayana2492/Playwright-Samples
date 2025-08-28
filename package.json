@@ -1,14 +1,27 @@
+
 {
-  "name": "playwright-learning",
+  "name": "everbridge-contacts-api-tests",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "description": "Automated test suite for Everbridge Mock Contacts API",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install:deps": "npm install && npx playwright install"
+  },
   "devDependencies": {
-    "@playwright/test": "^1.53.2",
-    "@types/node": "^22.14.1"
-  }
+    "@playwright/test": "^1.40.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "playwright",
+    "typescript", 
+    "api-testing",
+    "everbridge",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }
